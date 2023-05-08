@@ -121,6 +121,7 @@ function buyFamiliar() {
             familiarGPS = (familiarQuantity * familiarValue * familiarValueMulti)/2.5
         }
     }
+    drawBalance()
     drawFamiliarQuantity()
     drawFamiliarCost()
     drawFamiliarGPS()
@@ -140,6 +141,7 @@ function upgradeFamiliar() {
         familiarValueMulti = familiarValueMulti * familiarUpgradeRate
     }
     familiarGPS = (familiarQuantity * familiarValue * familiarValueMulti)/2.5
+    drawBalance()
     drawFamiliarUpgradeCost()
     drawFamiliarLevel()
     drawFamiliarGPS()
