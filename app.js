@@ -1,39 +1,4 @@
 
-let familiars = [
-    {
-        name: 'Fenrir',
-        img: './assets/fenrir-removebg-preview.png',
-        isPurchased: false,
-        cost: 100,
-        value: 1000,
-        type: 'dmg',
-
-    },
-    {
-        name: 'Phoenix',
-        img: './assets/Phoenix_2560x1440_-removebg-preview.png',
-        isPurchased: false,
-        cost: 100,
-        value: 1000,
-        type: 'dmg',
-    },
-    {
-        name: 'Fallen Angel',
-        img: './assets/fallen_angel_by_bravenor88_dfgpclg-removebg-preview.png',
-        isPurchased: false,
-        cost: 100,
-        value: 50,
-        type: 'heal',
-    },
-    {
-        name: 'Dark Pegasus',
-        img: './assets/49b2ddeabcb17c1365e277ac5dd509f6-removebg-preview.png',
-        isPurchased: false,
-        cost: 100,
-        value: 2,
-        type: 'spd',
-    }
-]
 
 let attackValueMulti = 1
 let attackValue = 1
