@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan Slayer | Idle Clicker</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/chronos-tab-img.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@800&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bgmain">
+    <header class="container-fluid">
+        <section class="row hdr-gradient">
+            <div class="col-12 font-titan text-center p-3">
+                <h1>
+                    TITAN SLAYER
+                </h1>
+            </div>
+        </section>
+    </header>
+
+    <main class="container-fluid">
+        <section class="row align-items-center">
+            <div class="col-3 p-3 fs-4">
+                <p>
+                    BALANCE: <span id="balance"></span>
+                </p>
+                <p>
+                    ATTACK GOLD: <span id="attackgold"></span>
+                </p>
+                <p>
+                    FAMILIAR GOLD/SECOND: <span id="familiargold"></span>
+                </p>
+            </div>
+            <div class="col-6 text-center">
+                <img class="demon-button" onclick="attack()" src="assets/demon-removebg-preview.png" alt="demon-king">
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-6 upgradeCard p-3">
+                <span class="d-flex align-items-baseline">
+                    <p class="me-3">COST: <span id="sUpgradeCost"></span></p>
+                    <button onclick="buySwordUpgrade()" class="upgradeButtons">Upgrade Sword</button>
+                    <p class="ms-3"> X<span id="swordLvl"></span></p>
+                </span>
+                <span class="d-flex align-items-baseline">
+                    <p class="me-3">COST: <span id="cUpgradeCost"></span></p>
+                    <button onclick="upgradeCurrency()" class="upgradeButtons">Upgrade Currency</button>
+                    <p class="ms-3"> X<span id="currencyLvl"></span></p>
+                </span>
+            </div>
+            <div class="col-6 upgradeCard p-3">
+                <span class="d-flex align-items-baseline">
+                    <p class="me-3">COST: <span id="familiarcost"></span></p>
+                    <button onclick="buyFamiliar()" class="upgradeButtons">Purchase Familiar</button>
+                    <p class="ms-3"> X<span id="familiarquantity"></span></p>
+                </span>
+                <span class="d-flex align-items-baseline">
+                    <p class="me-3">COST: <span id="familiarupgradecost"></span></p>
+                    <button onclick="upgradeFamiliar()" class="upgradeButtons">Upgrade Familiar</button>
+                    <p class="ms-3"> X<span id="familiarupgradelevel"></span></p>
+                </span>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

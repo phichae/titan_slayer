@@ -1,0 +1,72 @@
+
+/* main background stuff */
+
+.bgmain {
+    background-image: url(assets/X9pDnIDkMAnVqoO9cejm--1--1ipor_8x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Spectral', serif;
+    color: #db5801;
+}
+
+.upgradeButtons {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Georgia;
+    color: #db5801;
+    font-size: 23px;
+    background: #57575710;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .upgradeButtons:hover {
+    background: #000000;
+    text-decoration: none;
+  }
+
+
+
+.demon-button {
+    cursor: pointer;
+    height: 500px;
+    justify-self: center;
+}
+
+.upgradeCard {
+    /* From https://css.glass */
+    background: rgba(85, 85, 85, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    border: 1px solid rgba(85, 85, 85, 0.1);
+}
+
+/* HEADER STUFF */
+
+.hdr-gradient {
+    background: radial-gradient(circle, #555555 0%, #535353 35%, #797979 82%);
+    box-shadow: 3px 20px 49px 7px rgba(153, 49, 17, 0.75);
+    -webkit-box-shadow: 3px 20px 49px 7px rgba(153, 49, 17, 0.75);
+    -moz-box-shadow: 3px 20px 49px 7px rgba(153, 49, 17, 0.75);
+}
+
+.font-titan {
+    font-family: 'Spectral', serif;
+    color: rgb(219, 88, 1);
+    text-shadow: 2px 4px 12px rgb(219, 88, 1);
+}
+
+
+
+.fc-t {
+    color: #87F1FF;
+}
+
+/* BACKGROUND STUFF */
+
+.bg-indigo {
+    background-color: #4A0082;
+}
